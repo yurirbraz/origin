@@ -1,19 +1,32 @@
 What happens when you initialize a repository? Why do you need to do it?
-É criado o diretório estrutural do git que armazena toda a inteligência do software
+
+	Cria-se a estrutura inicial git do diretorio para conter a inteligencia do software.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+	A staging area é uma área de transição, utilizada para ter certeza que apenas as alterações desejadas serão salvas no controle de versão. Adiciona valor agregando ainda mais confiança no processo.
+
 How can you use the staging area to make sure you have one commit per logical
 change?
+
+	Visualizando o que está na staging area e comparando com a work area e também com a versão do controle de versões.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	Branches ajudam principalmente criando versões de desenvolvimento que não afetam as versões de produção. Também são muito úteis para testar novas features.
+
 How do the diagrams help you visualize the branch structure?
+
+	De acordo com que o programa torna-se mais complexo, com muitos branches de features e versões, os diagramas ajudam o programador a continuar tendo visibilidade do todo.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	Unir dois branches significa agregar um branch secundário em um branch principal. No diagrama duas linhas de versões tornam-se apenas uma.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+	O merge automático é o melhor esforço agregando todas as linhas que não possuem conflito. É rápido mas tem um alto grau de possibilidade de erros. O merge manual é um pouco mais trabalhoso, mas permite ao programador ter o controle total da versão final do código unificado.

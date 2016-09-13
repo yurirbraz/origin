@@ -23,14 +23,14 @@ files in one commit, while others, like Google Docs, treat each file separately?
 
 How can you use the commands git log and git diff to view the history of files?
 
-    Fill in your answer here
+    Git log mostra todo o histórico de alterações já realizadas em um repositório e git diff permite visualizar as diferenças entre dois commits do repositório.
 
 How might using version control make you more confident to make changes that
 could break something?
 
-    Fill in your answer here
+    Com a certeza que o estado anterior pode ser restaurado o programador pode fazer alterações com mais liberdade e confiança, pois o medo não o restringe. Assim o próprio programador torna-se melhor através da utilização de controles de versão.
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-    Fill in your answer here
+    Quero utilizar para escrever meus manuscritos e também meus códigos.
 
